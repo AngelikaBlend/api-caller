@@ -5,7 +5,14 @@
 
 ## Setup
 
-You can either clone this repository or follow the steps below to set up from scratch:
+### If You've Cloned the Repository
+
+1. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+### If Setting Up from Scratch
 
 1. Initialize a new Node.js project:
     ```bash
@@ -19,12 +26,10 @@ You can either clone this repository or follow the steps below to set up from sc
     ```bash
     npm install node-fetch
     ```
-
 4. Update your `package.json` to include:
     ```json
     "type": "module"
     ```
-
 5. Create a new file called `app.js`.
 
     You can copy the `app.js` content from this repository.
