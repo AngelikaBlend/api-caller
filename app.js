@@ -7,6 +7,7 @@ const port = 3000;
 
 
 app.get('/shopify', async (req, res) => {
+  console.log('here')
     const url = 'https://your-shop-name.myshopify.com/admin/api/2021-04/graphql.json';
     const query = `
       {

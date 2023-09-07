@@ -8,6 +8,7 @@
 ### If You've Cloned the Repository
 
 1. Install the dependencies:
+   
     ```bash
     npm install
     ```
@@ -39,5 +40,5 @@
 To run the app, simply execute:
 
 ```bash
-node app.js
+npm start
 ```
